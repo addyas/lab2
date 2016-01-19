@@ -14,11 +14,15 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     /*gonna try some gradients*/
+     background: #e57373;
+     background: linear-gradient(135deg, #424242, #ffccbc, #212121);
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
+     color: #fff;
 }
 
 .jumbotron:after {
@@ -33,6 +37,9 @@ body {
      z-index: -1;	
 }
 
+.proj h4{
+  color: #fff;
+}
 
 .project p{
     font-variant: small-caps;
